@@ -7,7 +7,7 @@ Learn react Hooks with codevolution crash course.
 - Hooks are new feature addition in react version 16.8 which allow you to use react features without having to write a class.
 - eg. state of a component
 - Hooks dont work inside classes.
-
+- state vs hooks - https://betterprogramming.pub/react-hooks-vs-classes-add2676a32f2
 ## Why hooks?
 
 - Avoid the whole confusion with 'this' keyword.
