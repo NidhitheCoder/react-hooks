@@ -30,3 +30,7 @@ Learn react Hooks with codevolution crash course.
   - The first value is current value of the state, and the second element is a state setter function.
 - If you need to new state value is depends on the previous state value ? you can pass a function to the setter function.
 - When we are dealing with arrays or objects, always make sure to spread your state variable and then call the setter function.
+
+## useEffect Hook
+- The effect hook lets you perform side effects in functional components.
+- It is a close replacement for  componentDidMount, ComponentDidUpdate and componentWillMount.
