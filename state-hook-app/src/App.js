@@ -11,14 +11,14 @@ import "./App.css";
 // import ClassMouse from './components/ClassMouse';
 // import HookMouse from './components/HookMouse';
 // import MouseContainer from './components/MouseContainer';
-import IntervalClassCounter from './components/intervalClassCounter';
-import IntervalHookCounter from './components/IntervalHookCounter';
+// import IntervalClassCounter from './components/intervalClassCounter';
+// import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <IntervalClassCounter />
-      <IntervalHookCounter />
+      <DataFetching />
     </div>
   );
 }
