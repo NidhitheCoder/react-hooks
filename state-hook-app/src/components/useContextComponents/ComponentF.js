@@ -1,7 +1,7 @@
 import React from "react";
 import { UserContext, SampleContext } from "../../App";
 
-function ComponentF(props) {
+function ComponentF() {
   return (
     <div>
       Component F

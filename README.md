@@ -42,4 +42,4 @@ Learn react Hooks with codevolution crash course.
 - There are 3 steps to making use of context :-
     1. Create the context.
     2. We need to provide this context to a value
-    3. 
+    3. We consuming the context value using the render props pattern.
