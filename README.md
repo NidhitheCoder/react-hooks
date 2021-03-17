@@ -34,3 +34,12 @@ Learn react Hooks with codevolution crash course.
 ## useEffect Hook
 - The effect hook lets you perform side effects in functional components.
 - It is a close replacement for  componentDidMount, ComponentDidUpdate and componentWillMount.
+- we can control occurance of the some events using dependencies with useEffect.
+
+## useContext
+- Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+- For passing props do not need intermediate component for child components, useContext helps to achieve it directly.
+- There are 3 steps to making use of context :-
+    1. Create the context.
+    2. We need to provide this context to a value
+    3. We consuming the context value using the render props pattern.
