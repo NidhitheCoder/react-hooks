@@ -1,4 +1,5 @@
 // Example of counter increment with class component
+import React from "react";
 import "./App.css";
 // import HookCounterFour from './components/HookCounterFour';
 // import HookCounterThree from './components/HookCounterThree';
@@ -13,12 +14,20 @@ import "./App.css";
 // import MouseContainer from './components/MouseContainer';
 // import IntervalClassCounter from './components/intervalClassCounter';
 // import IntervalHookCounter from './components/IntervalHookCounter';
-import DataFetching from './components/DataFetching';
+// import DataFetching from './components/DataFetching';
+import ComponentC from "./components/useContextComponents/ComponentC";
+
+export const UserContext = React.createContext();
+export const SampleContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <UserContext.Provider value={"Julia"}>
+        <SampleContext.Provider value={"sample data"}>
+          <ComponentC />
+        </SampleContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
