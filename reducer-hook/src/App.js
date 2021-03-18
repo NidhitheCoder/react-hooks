@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import DataFetchingOne from "./components/dataFetching/DataFetchingOne";
+import DataFetchingtwo from "./components/dataFetching/DataFetchingtwo";
+// import DataFetchingOne from "./components/dataFetching/DataFetchingOne";
 // import CounterThree from "./components/CounterThree";
 // import CounterTwo from "./components/CounterTwo";
 // import CounterOne from "./components/CounterOne";
@@ -26,9 +27,9 @@ import DataFetchingOne from "./components/dataFetching/DataFetchingOne";
 
 function App() {
   return (
-      <div className="App">
-    <DataFetchingOne />
-      </div>
+    <div className="App">
+      <DataFetchingtwo />
+    </div>
   );
 }
 
