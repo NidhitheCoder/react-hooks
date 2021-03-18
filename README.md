@@ -78,3 +78,6 @@ Learn react Hooks with codevolution crash course.
 ## Why we are using useCallback ?
 
 - It is usefull when passing callback to optimised child components that rely on referance quality to prevent unnecessory renders.
+
+## useMemo Hook
+- useMemo hook also helps to performance optimization.   
