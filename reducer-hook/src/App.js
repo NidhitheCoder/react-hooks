@@ -1,11 +1,12 @@
 import "./App.css";
-import CounterOne from "./components/CounterOne";
+import CounterTwo from "./components/CounterTwo";
+// import CounterOne from "./components/CounterOne";
 
 function App() {
   return (
     <div className="App">
       <h3>Reducer hook</h3>
-      <CounterOne />
+      <CounterTwo />
     </div>
   );
 }

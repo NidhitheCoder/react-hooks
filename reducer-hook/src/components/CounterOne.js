@@ -19,7 +19,7 @@ function CounterOne() {
   return (
     <div>
     <div>Count - {count}</div>
-      <button onClick={()=>dispatch('increment')}>Increment</button>
+      <button onClick={()=> dispatch('increment')}>Increment</button>
       <button onClick={()=> dispatch('decrement')}>Decrement</button>
       <button onClick={() => dispatch('reset')}>Reset</button>
     </div>
