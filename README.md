@@ -70,3 +70,11 @@ Learn react Hooks with codevolution crash course.
 - Releted state transitions => if there is no relation then use useState otherwise use useReducer.
 - Business logic - if there is no business login then it better to use useState. if there are some comlex business logic choose useReducer.
 - Local vs Global state => if state is local choose useState otherwise choose useReducer.
+
+## What is useCallback hook
+
+- useCallback is a hook that will return a memoized version of callback function that only changes if one of the dependencies has changed.
+
+## Why we are using useCallback ?
+
+- It is usefull when passing callback to optimised child components that rely on referance quality to prevent unnecessory renders.

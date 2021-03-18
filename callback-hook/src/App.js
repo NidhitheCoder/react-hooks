@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-    <h3>callback hook</h3>
+      <h3>callback hook</h3>
+      <ParentComponent />
     </div>
   );
 }
