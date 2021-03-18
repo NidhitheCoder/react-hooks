@@ -60,3 +60,5 @@ Learn react Hooks with codevolution crash course.
 - useReducer(reducer,initialState)
 - newState = reducer(currentState,action)
 - useReducer returns a pair of values [newState,dispatch].
+
+=> If we need to share state between components (global state management)  then use useReducer and useContext compained.
