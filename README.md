@@ -61,4 +61,12 @@ Learn react Hooks with codevolution crash course.
 - newState = reducer(currentState,action)
 - useReducer returns a pair of values [newState,dispatch].
 
-=> If we need to share state between components (global state management)  then use useReducer and useContext compained.
+=> If we need to share state between components (global state management) then use useReducer and useContext compained.
+
+## useState v/s useReducer
+
+- Type of state => number,string,and boolean it is better to use useState. if the state in the form of object or array it is better to use useReducer.
+- Number of state transitions => if the number of state transition is one or two then it is better to use useState, otherwise(too may states) use useReducer.
+- Releted state transitions => if there is no relation then use useState otherwise use useReducer.
+- Business logic - if there is no business login then it better to use useState. if there are some comlex business logic choose useReducer.
+- Local vs Global state => if state is local choose useState otherwise choose useReducer.
