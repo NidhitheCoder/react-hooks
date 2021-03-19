@@ -81,3 +81,8 @@ Learn react Hooks with codevolution crash course.
 
 ## useMemo Hook
 - useMemo hook also helps to performance optimization.   
+
+## Cusotm Hooks
+
+- A custom hook is basically a javascript functions whose name start with 'use'. A custom hook can  also call other hooks if required.
+- Why we use custom hook ? - Share logic between two or more components. Alternative for HOC and Render props.
